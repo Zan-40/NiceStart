@@ -55,6 +55,8 @@
             android:hint="Password"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
+
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_left"
         android:layout_width="wrap_content"
@@ -68,4 +70,21 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.8" />
+
+    <Button
+        android:id="@+id/login"
+        android:text="Login"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@id/til2"
+        style="@style/buttonoutlined" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintTop_toBottomOf="@id/login"
+        android:text="Register" />
 </androidx.constraintlayout.widget.ConstraintLayout>
