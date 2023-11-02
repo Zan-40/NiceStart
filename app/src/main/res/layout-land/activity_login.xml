@@ -9,20 +9,18 @@
 
     <ImageView
         android:id="@+id/thunder"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         app:srcCompat="@drawable/ic_thunder" />
 
     <ImageView
         android:id="@+id/girl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:scaleType="fitStart"
         app:srcCompat="@drawable/girl"/>
@@ -31,7 +29,7 @@
         android:id="@+id/til1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/thunder"
