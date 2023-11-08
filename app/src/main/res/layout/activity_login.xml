@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/ic_thunder" />
+        app:srcCompat="@drawable/ic_thunder"/>
 
     <ImageView
         android:id="@+id/girl"
@@ -49,7 +49,8 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/til1"
-        app:startIconDrawable="@drawable/keyicon">
+        app:startIconDrawable="@drawable/keyicon"
+        app:passwordToggleEnabled="true">
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -64,18 +65,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_percent="0.85" />
 
     <Button
         android:id="@+id/login"
         android:text="Login"
+        android:onClick="openMain"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintTop_toBottomOf="@id/til2"
@@ -85,6 +87,7 @@
         android:id="@+id/register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="openRegister"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintTop_toBottomOf="@id/login"

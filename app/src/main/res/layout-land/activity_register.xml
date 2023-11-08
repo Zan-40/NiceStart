@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".Login">
-
+    tools:context=".Register">
     <ImageView
         android:id="@+id/thunder"
         android:layout_width="70dp"
@@ -29,7 +28,7 @@
         android:id="@+id/til1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/thunder"
@@ -47,6 +46,20 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/til1"
+        app:startIconDrawable="@drawable/usericon">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@id/til2"
         app:startIconDrawable="@drawable/keyicon"
         app:passwordToggleEnabled="true">
         <EditText
@@ -54,6 +67,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline_right"
+        app:layout_constraintStart_toStartOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@id/til3"
+        app:startIconDrawable="@drawable/keyicon"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"></EditText>
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -72,21 +100,15 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.8" />
 
-    <Button
-        android:id="@+id/login"
-        android:text="Login"
-        app:layout_constraintStart_toStartOf="@id/guideline_left"
-        app:layout_constraintEnd_toEndOf="@id/guideline_right"
-        app:layout_constraintTop_toBottomOf="@id/til2"
-        style="@style/buttonflat" />
 
     <Button
         android:id="@+id/register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="openMain"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
-        app:layout_constraintTop_toBottomOf="@id/login"
+        app:layout_constraintTop_toBottomOf="@id/til4"
         android:text="Register"
         style="@style/buttonoutlined"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

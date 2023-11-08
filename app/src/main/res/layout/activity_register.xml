@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".register">
+    tools:context=".Register">
     <ImageView
         android:id="@+id/thunder"
         android:layout_width="110dp"
@@ -62,7 +62,8 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/til2"
-        app:startIconDrawable="@drawable/keyicon">
+        app:startIconDrawable="@drawable/keyicon"
+        app:passwordToggleEnabled="true">
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -76,7 +77,8 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintTop_toBottomOf="@id/til3"
-        app:startIconDrawable="@drawable/keyicon">
+        app:startIconDrawable="@drawable/keyicon"
+        app:passwordToggleEnabled="true">
         <EditText
             android:id="@+id/confirm_password"
             android:layout_width="match_parent"
@@ -91,20 +93,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.2" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_percent="0.85" />
 
 
     <Button
         android:id="@+id/register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="openMain"
         app:layout_constraintStart_toStartOf="@id/guideline_left"
         app:layout_constraintEnd_toEndOf="@id/guideline_right"
         app:layout_constraintTop_toBottomOf="@id/til4"
