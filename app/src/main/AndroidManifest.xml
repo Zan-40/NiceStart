@@ -28,9 +28,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginConstraint"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false"
             android:theme="@style/Theme.NiceStart.ActionBar"/>
