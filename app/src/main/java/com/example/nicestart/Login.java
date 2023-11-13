@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
 
 public class Login extends AppCompatActivity {
 
@@ -13,6 +16,8 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        ImageView girl = findViewById(R.id.girl);
+        Glide.with(this).load(R.drawable.girl).into(girl);
     }
 
     public void openMain(View view){
