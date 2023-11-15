@@ -12,6 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/fucsia_200</item>
         <!-- Customize your theme here. -->
+        <!-- HACERLO TRANSPARENTE -->
+        <item name="android:windowIsTranslucent">true</item>
     </style>
     <style name="Theme.NiceStart.ActionBar" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,14 +15,8 @@
         android:theme="@style/Theme.NiceStart.NoActionBar"
         tools:targetApi="34">
         <activity
-            android:name=".Register"
-            android:exported="true"
-            android:parentActivityName=".Login"
-            android:theme="@style/Theme.NiceStart.ActionBar"/>
-        <activity
-            android:name=".Login"
-            android:exported="true"
-            android:theme="@style/Theme.NiceStart.NoActionBar">
+            android:name=".Splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,9 +24,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Register"
+            android:exported="true"
+            android:parentActivityName=".Login"
+            android:theme="@style/Theme.NiceStart.ActionBar" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/Theme.NiceStart.NoActionBar">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.NiceStart.ActionBar"/>
+            android:theme="@style/Theme.NiceStart.ActionBar" />
     </application>
 
 </manifest>
