@@ -19,7 +19,7 @@ public class Splash extends AppCompatActivity {
         openApp();
 
         ImageView logo = findViewById(R.id.logo);
-        Glide.with(this).load(R.drawable.coffeelogo).into(logo);
+        Glide.with(this).load(R.drawable.ic_thunder).into(logo);
     }
 
     private void openApp(){
