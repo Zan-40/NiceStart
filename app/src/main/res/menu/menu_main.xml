@@ -9,8 +9,6 @@
         android:title="Item"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/app_name"
-        app:showAsAction="never" />
+        android:id="@+id/nopeople"
+        android:title="NoPeople"/>
 </menu>
