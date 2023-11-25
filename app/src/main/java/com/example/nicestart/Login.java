@@ -12,13 +12,12 @@ import com.bumptech.glide.Glide;
 
 public class Login extends AppCompatActivity {
 
-    private ImageView thunder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        thunder = findViewById(R.id.thunder);
+        ImageView thunder = findViewById(R.id.thunder);
         Animation blink = AnimationUtils.loadAnimation(this, R.anim.blink);
 
         thunder.startAnimation(blink);
@@ -28,9 +27,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void openMain(View view){
-            Intent intent = new Intent(Login.this, Nopeople.class);
-        //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        Intent intent = new Intent(Login.this, MainActivity.class);
         startActivity(intent);
     }
 
