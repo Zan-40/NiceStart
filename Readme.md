@@ -1,6 +1,7 @@
 <h1 align="center" color = "#DF367C">Nice Start</h1>
 <p>Nice Start is an application for Android which has been designed with a youthful style, with bright and cheerful colors.</p>
 <p>The application is 100% responsive and adapts to all types of devices!</p>
+<p>Pull request ✅</p>
 <h2 color = "#DF367C">Login</h2>
 <p>The Login Activity consists of two EditText for the user to enter the username and password.
 If you are not registered, there is a button that offers the option to register to enter the application.</p>
