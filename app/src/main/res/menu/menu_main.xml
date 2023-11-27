@@ -11,19 +11,19 @@
 
     <item
         android:id="@+id/menupuntos"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/menu"
         android:title="Item"
         app:showAsAction="always|withText">
         <menu>
             <item
                 android:id="@+id/nopeople"
-                android:title="NoPeople"
-                android:icon="@drawable/ajuste"
+                android:title=" NoPeople"
+                android:icon="@drawable/usericon"
                 app:showAsAction="always|withText"/>
             <item
                 android:id="@+id/settings"
-                android:title="Settings"
-                android:icon="@drawable/ajuste"
+                android:title=" Settings"
+                android:icon="@drawable/settings"
                 app:showAsAction="always|withText"/>
         </menu>
     </item>
