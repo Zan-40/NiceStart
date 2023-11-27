@@ -22,6 +22,10 @@ When you are ready, press the register button.</p>
 </p>
 <h2 color = "#DF367C">NoPeople</h2>
 <p align = "center">
-  [![Alt text](https://img.youtube.com/vi/=_iroal1V3z8/0.jpg)](https://www.youtube.com/watch?v=_iroal1V3z8)
+  https://github.com/Zan-40/NiceStart/assets/92984483/bf8e1912-9d50-4e3c-b955-fc8bcf22973b
 </p>
+
+
+
+
 
