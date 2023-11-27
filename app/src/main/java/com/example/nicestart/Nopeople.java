@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.*;
 import android.widget.*;
-import android.view.*;
 import androidx.swiperefreshlayout.widget.*;
 
 public class Nopeople extends AppCompatActivity {
@@ -17,8 +16,8 @@ public class Nopeople extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nopeople);
 
-        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
-        miVisorWeb = (WebView) findViewById(R.id.vistaweb);
+        swipeLayout = findViewById(R.id.swipe);
+        miVisorWeb = findViewById(R.id.vistaweb);
 
         swipeLayout.setOnRefreshListener(mOnRefreshListener);
 

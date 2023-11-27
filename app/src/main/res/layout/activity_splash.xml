@@ -13,7 +13,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        style = "@style/splash_img"/>
+        style = "@style/splash_img"
+        android:contentDescription="thunder"
+        tools:ignore="HardcodedText" />
     
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie"
