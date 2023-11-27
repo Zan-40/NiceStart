@@ -18,6 +18,10 @@ When you are ready, press the register button.</p>
 </p>
 <h2 color = "#DF367C">Main Activity</h2>
 <p align = "center">
-  <img src = img/main-activity.jpeg width = 30%>
+  <img src = img/main.jpeg width = 30%>
+</p>
+<h2 color = "#DF367C">NoPeople</h2>
+<p align = "center">
+  [![Alt text](https://img.youtube.com/vi/=_iroal1V3z8/0.jpg)](https://www.youtube.com/watch?v=_iroal1V3z8)
 </p>
 
