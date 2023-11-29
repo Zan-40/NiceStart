@@ -41,6 +41,12 @@
             android:layout_weight="1"
             android:text="RESET"
             app:cornerRadius="0px" />
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
     <TextView
         android:id="@+id/screen"
         android:layout_width="wrap_content"
