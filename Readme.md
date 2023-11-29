@@ -30,8 +30,23 @@ When you are ready, press the register button.</p>
   <img src = img/main.jpeg width = 30%>
   <img src = img/selectnopeople.jpeg width = 30%>
 </p>
-<h2 color = "#DF367C">NoPeople</h2>
+<h2 color = "#DF367C">Camera 📷</h2>
+<p>
+  The camera functionality calls your device's camera, to save the photo as the background of the activity.
+  <br>
+  For optimization it is necessary to reduce the resolution of the photo.
+</p>
 
+
+https://github.com/Zan-40/NiceStart/assets/92984483/1c309e21-933d-47d5-9e39-6feb3ce03727
+
+
+<h2 color = "#DF367C">NoPeople</h2>
+<p>
+  NoPeople is a webview to a web page called thispersondoesnotexist.com which reacts to the application's swipe. 
+  <br>
+  When you swipe within the application, the web page reloads.
+</p>
 
 
 
@@ -46,6 +61,8 @@ https://github.com/Zan-40/NiceStart/assets/92984483/36728a94-587d-4f4f-938d-5d51
 <a href = "https://lottiefiles.com/">
   <img src = img/lottie.svg width = 30%>
 </a>
+<br>
+https://thispersondoesnotexist.com/
 
 
 
