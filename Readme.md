@@ -39,7 +39,12 @@ https://github.com/Zan-40/NiceStart/assets/92984483/36728a94-587d-4f4f-938d-5d51
 
 
 <h2 color = "#DF367C">Credits</h2>
-
+<a href = "https://www.flaticon.com">
+  <img src = img/flaticon.png width = 30%>
+</a>
+<a>
+  <img src = img/lottie.svg width = 30%>
+</a>
 
 
 
